@@ -10,5 +10,11 @@ public class App {
 
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
+
+        int a = 4;
+        int b = 6;
+
+        int c = a + b;
+        System.out.println(c);
     }
 }
